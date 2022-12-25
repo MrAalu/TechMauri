@@ -1,0 +1,100 @@
+.Main{
+  margin: auto;
+  width: 500px ;
+  height: 550px ;
+  background-color: #bee3fe;
+  padding: 10px;
+  outline: 2px solid rgb(6, 2, 2);
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.body{
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+*{
+  margin: 3px;
+  padding: 2px;
+}
+p{
+  font-family: "Lucida Console", "Courier New", monospace;
+  white-space: nowrap;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 20px;
+  text-align:left;
+}
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 20px;
+	margin: 5px 5px 0px 20px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 80%;
+  display: block;
+  float: left;
+  border-bottom: 0.3rem solid transparent;
+}
+
+.btn{
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: #7dc1f3;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 0px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  line-height: 26px;
+}
+
+#rem{
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 300px;
+  padding: 5px 5px;
+  text-align:left;
+  position: absolute;
+  left: -120px;
+  top: 218px;
+}
+
+.remember
+{
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: absolute;
+  left: 40px;
+  top: 213px;
+
+}
+.forgot{
+  font-family: "Lucida Console", "Courier New", monospace;
+  position: absolute;
+  left: 300px;
+  top: 212px;
+}
+#btn1
+{
+ margin-top: 50px;
+}
+
+.createp
+{
+  margin : auto ;
+  text-align: center;
+}
