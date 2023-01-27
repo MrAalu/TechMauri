@@ -1,153 +1,220 @@
 /* Importing GOOGLE Font Here */
 /* FONT NAME : ROBOTO SERIF !!! CODE : font-family: 'Roboto Serif', 'serif';*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap");
 /* FONT NAME MONTSERRAT !!! CODE :font-family: 'Montserrat', sans-serif;*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+/* Making ROOT Variables */
 :root {
-    --MainBackgroundColor: #F0ECC7;
-    --RobotoFont: 'Roboto Serif', 'serif';
-    --MontserratFont: 'Montserrat', sans-serif;
+  --MainBackgroundColor: #f0ecc7;
+  --RobotoFont: "Roboto Serif", "serif";
+  --MontserratFont: "Montserrat", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: var(--MainBackgroundColor);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--MainBackgroundColor);
 }
 
 .body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    font-family: var(--MontserratFont);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  font-family: var(--MontserratFont);
 }
 
 /* Sports Zone Logo CSS */
 img {
-    width: 20rem;
+  width: 20rem;
 }
 
 /*  selecting sports-zone direct child element paragraph */
-.sports-zone>p {
-    text-transform: uppercase;
-    font-family: var(--RobotoFont);
-    font-size: 5rem;
-    font-weight: bold;
-    color: #152B3D;
+.sports-zone > p {
+  text-transform: uppercase;
+  font-family: var(--RobotoFont);
+  font-size: 5rem;
+  font-weight: bold;
+  color: #152b3d;
 }
 
 /* Sports-Zone selects Logo and FUTSAL BOOKING Text */
 .sports-zone {
-    /* border: 2px solid red; */
-    margin-top: 10%;
-    margin-left: 5%;
-    height: 100%;
+  /* border: 2px solid red; */
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 100%;
 }
 
 /* SECTION INCLUDES : LOGIN TEXT,Form Actions,ForgotPassword,Signup */
 section {
-    height: 100%;
-    min-width: 40rem;
-    margin-top: 8%;
-    margin-left: 8%;
+  height: 100%;
+  min-width: 40rem;
+  margin-top: 8%;
+  margin-left: 8%;
 }
 
-/*  selecting section direct child elemet h1 */
-section>h1 {
-    text-transform: capitalize;
-    font-size: 5rem;
-    font-weight: 400;
+/*  selecting section direct child elemet h1 LOGIN TEXT*/
+section > h1 {
+  text-transform: capitalize;
+  font-size: 5rem;
+  font-weight: 400;
 }
 
 /* selecting Form */
 .login-form {
-    /* border: 2px solid rgb(255, 8, 21); */
-    margin-top: 3%;
+  /* border: 2px solid rgb(255, 8, 21); */
+  margin-top: 3%;
 }
 
 /* INPUT FIELDS CSS */
 input {
-    background: #F9F4E6;
-    border: none;
-    font-size: 2rem;
-    width: 100%;
-    border-radius: 7px;
-    box-shadow: 0 1px 10px black;
-    margin-top: 5%;
-    padding: 0.625rem;
+  background: #f9f4e6;
+  border: none;
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px black;
+  margin-top: 5%;
+  padding: 0.625rem;
 }
 
 /* Changing Input BOX Placeholders CSS */
 ::placeholder {
-    color: #3C3B39;
-    text-transform: capitalize;
+  color: #3c3b39;
+  text-transform: capitalize;
 }
 
 /* LOGIN BUTTON CSS here */
 .btn {
-    margin-top: 5%;
-    border: none;
-    border-radius: 25px;
-    width: 12rem;
-    background: #D8AB43;
-    font-size: 2rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 0.3rem;
-    box-shadow: 0 1px 10px black;
-    text-shadow: 1px 1px 5px #7e6629;
-    transition: all 0.3s;
+  margin-top: 5%;
+  border: none;
+  border-radius: 25px;
+  width: 12rem;
+  background: #d8ab43;
+  font-size: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0.3rem;
+  box-shadow: 0 1px 10px black;
+  text-shadow: 1px 1px 5px #7e6629;
+  transition: all 0.3s;
 }
 
 .btn:hover {
-    transform: translateY(0.1rem);
-    box-shadow: 1px 1px 15px black;
+  transform: translateY(0.1rem);
+  box-shadow: 1px 1px 15px black;
 }
 
 /* Selecting 
 FORGOT PASSWORD & Create new Account (Signup) */
 .bottom {
-    margin-top: 5%;
-    line-height: 3rem;
+  margin-top: 5%;
+  line-height: 3rem;
 }
 
 /* Signup Link CSS */
-.bottom label>a {
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
+.bottom label > a {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 /* Dont have an Account ?  */
 .bottom label {
-    color: #615F50;
+  color: #615f50;
 }
 
 /* Forgot Password CSS */
 #forgot {
-    text-decoration: none;
-    border-bottom: 2px solid #787663;
+  text-decoration: none;
+  border-bottom: 2px solid #787663;
 }
 
 /* LINK Colors CSS */
 a {
-    color: black;
+  color: black;
 }
 
-
+/* ------------------------------------------------------------------------------------------------------ */
 /* SIGNUP PAGE CSS STARTS HERE   !!!!!!!!!!!!!!!!!!!!!*/
 .signup-form {
-    margin-top: 3%;
-    margin-right: 5%;
-    width: 50rem;
-    /* border: 2px solid green; */
+  margin-top: 3%;
+  margin-right: 5%;
+  width: 50rem;
+  /* border: 2px solid green; */
 }
 
-/* SIGNUP FORM HEADING CSS */
-.signup-form>h1 {
-    text-transform: capitalize;
+/* SIGNUP FORM HEADING CSS "Get Started with Your Account TEXT"*/
+.signup-form > h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.signup-form > h1,
+.signup-form input {
+  text-align: left;
+}
+/* ------------------------------------------------------------------------------------------------------ */
+/* RESPONSIVE WEB DESIGNING STARTS HERE  */
+/* Responsive CSS for 15.6Inch Laptop with resolution of (1366px) width & (768px)height */
+/* MEDIA QUERY Min-Width 650px ()- RESPONSIVE WEB TESTING  */
+
+@media screen and (max-width: 1366px) {
+  /*  selecting sports-zone direct child element paragraph */
+  /* FUTSAL BOOKING TEXT */
+  .sports-zone > p {
+    text-transform: uppercase;
+    font-family: var(--RobotoFont);
     font-size: 3rem;
     font-weight: bold;
+    color: #152b3d;
+    width: 10em;
+  }
+
+  /* Sports-Zone selects Logo and FUTSAL BOOKING Text */
+  .sports-zone {
+    /* border: 2px solid red; */
+    margin-top: 8%;
+    /* margin-left: 3%; */
+  }
+
+  /* Selecting LOGIN Form */
+  .login-form {
+    /* border: 2px solid rgb(255, 8, 21); */
+    margin-top: 2rem;
+  }
+
+  /* Seleting LOGIN Text */
+  #loginText {
+    margin-top: -3rem;
+  }
+  /* SIGNUP PAGE CSS STARTS HERE   !!!!!!!!!!!!!!!!!!!!!*/
+  .signup-form {
+    margin-top: -8%;
+    margin-left: -10%;
+    width: 100%;
+    text-align: left;
+    /* border: 2px solid green; */
+  }
+
+  /* SignupForm "Get Started with Your Account TEXT" */
+  .signup-form > h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Selecting SIGNUP FORM Input[] Fields */
+  .signup-form input {
+    /* position: relative; */
+    font-size: 1.5rem;
+    width: 40rem;
+    margin-top: 2rem;
+  }
+
+  /* Selecting SIGNUP Form , SignUp Button */
+  .signup-form .btn {
+    margin-left: 15rem;
+  }
 }
